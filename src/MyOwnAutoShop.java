@@ -3,6 +3,7 @@ public class MyOwnAutoShop {
 
         Sedan mySedan = new Sedan(132,34230.00, "Grey",16);
 
+        System.out.println();
         System.out.println("Sedan Details: Charger");
         System.out.println("Speed: " + mySedan.speed + "mph");
         System.out.println("Color: " + mySedan.color);
@@ -31,7 +32,7 @@ public class MyOwnAutoShop {
         System.out.printf("Sale Price: $%,.0f\n", ford2.getSalePrice());
         System.out.println();
 
-        Truck myTruck = new Truck(115, 40350.00, "white", 7100);
+        Truck myTruck = new Truck(115, 40350.00, "White", 7100);
 
         System.out.println("Truck Details: Nissan Titan");
         System.out.println("Speed: " + myTruck.speed + "mph");
@@ -41,7 +42,7 @@ public class MyOwnAutoShop {
         System.out.printf("Sale Price: $%,.0f\n", myTruck.getSalePrice());
         System.out.println();
 
-        Car myCar = new Car(92, 27800.00, "Blue");
+        Car myCar = new Car(92, 27800.00, "Red");
 
         System.out.println("Car Details: Chevy Bolt");
         System.out.println("Speed: " + myCar.speed + "mph");
